@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    display: block;
+}
+
+/* ::after {
+    content: '';
+    clear: both;
+} */
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.wrap {
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 250px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.header .text {
+    width: 40%;
+}
+
+.header .image {
+    width: 30%;
+}
+
+.main {
+    width: 100%;
+    height: 660px;
+}
+
+.main .mixbutton {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+}
+
+.main .mixbutton button {
+    font-size: 1.005rem;
+}
+
+.main .mixbutton .box1 {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main .mixbutton .box2 {
+
+    
+}
